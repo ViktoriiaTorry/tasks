@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+height: 100%;
+}
+.forms{
+	position: relative;
+width: 650px;
+height: 550px;
+background-image: url("images/noise.png");
+margin: auto;
+}
+.data{
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	margin: auto;
+	padding:  150px  200px 0px;
+}
+form{
+	width: 300px;
+	height: 250px;
+	position: absolute;
+}
+.Text{
+  font-size: 15px;
+  font-family: "HelveticaLT";
+  color: #d0d1d1;
+  text-align: left;
+  text-shadow: 0px 1px 0px #e5e6e6;
+}
+ hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: grey; /* Цвет линии для остальных браузеров */
+    background-color: #cccccc; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+   }
+#Login_Here {
+  background-color:transparent;
+outline: none; border: none;
+  font-size: 30px;
+  font-family: "Arial Narrow";
+  color: #7c7c7c;
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  position: absolute;
+}
+#email{
+border-style: solid;
+  border-width: 1px;
+  border-color: rgb(224, 227, 227);
+  background-image: -moz-linear-gradient( 90deg, #f0f1f1 0%, #f0f1f1 100%);
+  background-image: -webkit-linear-gradient( 90deg, #f0f1f1 0%, r#f0f1f1 100%);
+  background-image: -ms-linear-gradient( 90deg, #f0f1f1 0%, #f0f1f1 100%);
+  box-shadow: 0px 2px 0px 0px rgba(206, 208, 208, 0.004);
+  width: 262px;
+  height: 31px;
+  z-index: 36;
+}
+#password{
+border-style: solid;
+  border-width: 1px;
+  border-color: rgb(224, 227, 227);
+  background-image: -moz-linear-gradient( 90deg, #f0f1f1 0%, #f0f1f1 100%);
+  background-image: -webkit-linear-gradient( 90deg, #f0f1f1 0%, r#f0f1f1 100%);
+  background-image: -ms-linear-gradient( 90deg, #f0f1f1 0%, #f0f1f1 100%);
+  box-shadow: 0px 2px 0px 0px rgba(206, 208, 208, 0.004);
+  width: 262px;
+  height: 31px;
+  z-index: 36;
+  }
+#checkbox{
+float: left;
+  background-color: rgb(232, 233, 233);
+  box-shadow: inset 1px 0.866px 0.85px 0.15px rgba(0, 0, 0, 0.25);
+position: absolute;
+}
+ h2{
+  float: left;
+	width: 80px;
+  font-size: 12px;
+  font-family: "HelveticaLT";
+  color: #7c7c7c;
+  text-shadow: 0px 1px 0px #f7f8f8;
+  position: absolute;
+  left: 20px;
+}
+ .icon{
+position: absolute;
+left: 120px;
+top: 160px;
+}
+ h1{
+  font-size: 15px;
+  font-family: "Calibri";
+  color: #999999;
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+  position: absolute;
+
+}
+ #submit {
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E0E3E3;
+  background-image: -moz-linear-gradient( 90deg, rgb(220,221,223) 0%, rgb(241,241,241) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(220,221,223) 0%, rgb(241,241,241) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(220,221,223) 0%, rgb(241,241,241) 100%);
+  box-shadow: 0px 2px 0px 0px rgba(206, 208, 208, 0.004);
+  left: 175px;
+}
+#reset{
+    position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E0E3E3;
+  background-image: -moz-linear-gradient( 90deg, rgb(220,221,223) 0%, rgb(241,241,241) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(220,221,223) 0%, rgb(241,241,241) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(220,221,223) 0%, rgb(241,241,241) 100%);
+  box-shadow: 0px 2px 0px 0px rgba(206, 208, 208, 0.004);
+  left: 225px;
+}
+
+
+

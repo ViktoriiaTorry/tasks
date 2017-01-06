@@ -1,0 +1,13 @@
+
+.player{
+width: 480px;
+height: 270px;
+}
+#playpause {
+    background:#eee;
+    color:#333;
+    padding:0 5px;
+    font-size:12pt;
+    text-transform:uppercase;
+    width:50px;
+}
